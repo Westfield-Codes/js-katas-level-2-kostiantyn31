@@ -9,6 +9,7 @@ main();
  * @param: none (main never gets params)
  * @return: none (main never gets returns
  */
+
 function main() {
     let dogName = prompt("What is your dog's name?");
     let cups = prompt("How many cups of food do you give for each meal?");
@@ -21,10 +22,12 @@ function main() {
  * @param: dogName (string), cups (integer)
  * @return: none
  */ 
-function feedDog(dogName, cups) {
+
+function feedDog(dogName, cups) { 
     let cup = 0;
-    while (cup < cups) {
-        alert("Here's a cup of kibble, " + cups + "!");
-        cup++;
+    for ( let cup = 0; cup < cups;  cup += 1 ) // cup++
+    {
+        alert("Here's a cup of kibble, " + dogName + "!");
     }
+    
 }

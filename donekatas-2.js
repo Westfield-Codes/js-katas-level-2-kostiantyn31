@@ -59,7 +59,7 @@ function main() {
 function feedDog(dogName, cups) {
     let cup = 0;
     while (cup < cups) {
-        alert("Here's a cup of kibble, " + cups + "!");
+        alert("Here's a cup of kibble, " + dogName + "!");
         cup++;
     }
 }

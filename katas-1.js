@@ -53,8 +53,10 @@
 /* PET KATAS */
 
 /* Var Alert Prompt */
-// make a variable for pet type, prompt user for it 
+// make a variable for pet type, prompt user for it
+var petType = prompt("petType") 
 // make a variable for pet name, prompt user for it
+var petName = prompt("petName");
 // alert "You have a pet type named pet name 
 
 /* Var Alert Prompt Conditionals */
